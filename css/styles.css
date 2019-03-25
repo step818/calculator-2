@@ -1,0 +1,20 @@
+.numbers {
+  border: solid 3px gray;
+  font-size: 20px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.operators {
+  border: solid 3px gray;
+  font-size: 20px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+#equals {
+  border: solid 3px gray;
+  font-size: 20px;
+  background-color: lightgray;
+  text-align: center;
+}

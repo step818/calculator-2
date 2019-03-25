@@ -8,14 +8,14 @@ $(function() {
 
   $('.operators').click(function() {
     console.log(this.innerText);
-    var thisNumber = parseInt(currentDigits.join(''));
+    var thisNumber = parseFloat(currentDigits.join(''));
     equation.push(thisNumber);
     currentDigits = [];
     equation.push(this.innerText);
   });
 
   $('#equals').click(function() {
-    var thisNumber = parseInt(currentDigits.join(''));
+    var thisNumber = parseFloat(currentDigits.join(''));
     equation.push(thisNumber);
     currentDigits = [];
     var answer = equation[0];
